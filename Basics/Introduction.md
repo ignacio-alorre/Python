@@ -9,6 +9,7 @@ print("Hello "+name+"!")
 stringWithNewLines = """This would be one line
 and this would be the second line"""
 print(stringWithNewLines)
+```
 
 # Valid variables
 
