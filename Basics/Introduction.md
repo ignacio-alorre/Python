@@ -20,3 +20,13 @@ sentence = "I am"
 # The following will generate an error, sicne each variable has a different datatype
 #print(sentence + age)
 
+# Integers
+
+a = 12
+b = 3
+
+print(a / b) # 4.0
+print(a // b) # 4
+print(a % b) # 0
+
+
