@@ -1,3 +1,5 @@
+# Print()
+
 ```python
 # Printing Hello World!
 name = World
@@ -10,12 +12,15 @@ print(stringWithNewLines)
 
 # Valid variables
 
+```python
 greeting = "Hello"
 Greeting = "Hola" # This will be a different variable
 _name = "Scot"
+```
 
 # Type conversion
 
+```python
 age = 54
 sentence = "I am"
 # The following will generate an error, sicne each variable has a different datatype
