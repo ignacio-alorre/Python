@@ -1,3 +1,4 @@
+```python
 # Printing Hello World!
 name = World
 print("Hello "+name+"!")
@@ -28,5 +29,5 @@ b = 3
 print(a / b) # 4.0
 print(a // b) # 4
 print(a % b) # 0
-
+```
 
