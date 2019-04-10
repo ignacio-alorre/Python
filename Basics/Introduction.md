@@ -27,7 +27,7 @@ sentence = "I am"
 # The following will generate an error, sicne each variable has a different datatype
 #print(sentence + age)
 
-# Print + Integers
+# Operations + Integers
 
 ```python
 a = 12
@@ -38,7 +38,7 @@ print(a // b) # 4
 print(a % b) # 0
 ```
 
-# Print + Strings
+# Operations + Strings
 
 ```python
 str = "Labrador Retriever"
@@ -46,6 +46,13 @@ print(str[0])    #    L
 print(str[-1])   #    r
 print(str[0:4])  #    Labr
 print(str[3:2])  #    ra
+print(str[:6])   #    Labrad
+print(str[9:])   #    Retriever
+print(str[0:6:2])#    Lba   (From index 0 to index 6, no inclusive, print all characters skipping 1)
+
+print("Hello" * 3) # Hello Hello Hello
+
+print("day" in "Today") # True
 ```
 
 ...min 5
