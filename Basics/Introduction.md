@@ -37,3 +37,11 @@ print(a // b) # 4
 print(a % b) # 0
 ```
 
+# Strings
+
+str = "Labrador Retriever"
+print(str[0])    #    L
+print(str[-1])   #    r
+print(str[0:4])  #    Labr
+
+
