@@ -55,6 +55,5 @@ print("Hello" * 3) # Hello Hello Hello
 print("day" in "Today") # True
 ```
 
-...min 5
 
 
