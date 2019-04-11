@@ -11,6 +11,12 @@ and this would be the second line"""
 print(stringWithNewLines)
 ```
 
+# Capturing input
+
+```python
+name = input("Please enter your name: ")
+```
+
 # Valid variables
 
 ```python
