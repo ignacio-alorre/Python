@@ -67,11 +67,14 @@ print("My age is "+ str(age) + " years")
 print("My age is {0} years".format(age))
 print("My age is {0} years. Tomorrow I become {1}".format(age, 25))
 print("My age is %d years" % age)
+
 # In the example below the 3 in %3d determines the number of characters allocated for that digit
 # in this particular case, since 24 has just two digits, it will be converted into " 24"
-print("My age is %3d years %s" % (age, "old")) 
+print("My age is %3d years %s" % (age, "old"))
+
 # Another option
 print("My age is {0:3} years" % (age))  
+
 # In case the parameters are in order you dont need to use the index
 print("My age is {:3} years {}" % (age, "old"))
 ```
