@@ -9,6 +9,10 @@ print("Hello "+name+"!")
 stringWithNewLines = """This would be one line
 and this would be the second line"""
 print(stringWithNewLines)
+
+# print() add a new line by default at the end of the printing action
+# In case you want to avoid this or add a different termination to a printed line you can:
+print("This is the sentence to print", end = "")
 ```
 
 # Capturing input
