@@ -49,7 +49,7 @@ for i in range(1:10):
 #Concatenating string into for loop
 concat = ''
 for i in range(1:10):
-    concat = concat + i
+    concat += i
     
 # for loop across a string
 
@@ -57,7 +57,7 @@ line = "here3there4aresome6number4and2letters"
 cleanNumbers = ''
 for char in line:
     if char in "0123456789":
-        cleanNumbers = cleanNumbers + char
+        cleanNumbers += char
 
 # The loop will iterate from 0 to 100 in steps of 5
 for i in range (0. 100, 5)
