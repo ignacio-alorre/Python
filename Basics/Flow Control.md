@@ -96,3 +96,23 @@ if nasty_food == 'spam':
     print('I want something without spam')
 ```
 
+# While Loop
+
+```python
+i = 0
+while i < 10:
+    print("i is {}".format(i))
+    i += 1
+    
+available_exits = ["east", "north east", "south"]
+chosen_exit = ""
+
+while chosen_exit not in available_exits:
+    chosen_exit = input("introduce exit: ")
+    if chosen_exit == "quit":
+        break
+else: 
+    print("You got out there")
+```
+
+
