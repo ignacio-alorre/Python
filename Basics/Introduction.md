@@ -90,4 +90,16 @@ print("My age is {0:3} years" % (age))
 print("My age is {:3} years {}" % (age, "old"))
 ```
 
+# Augmented Assigment
 
+```python
+x = 4
+x += 6
+print(x) # 10
+x *= 3
+print(x)  # 30
+x /= 6
+print(x)  # 5
+x **= 2
+print(x)  # 25
+```
