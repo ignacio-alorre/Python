@@ -62,8 +62,37 @@ for char in line:
 # The loop will iterate from 0 to 100 in steps of 5
 for i in range (0. 100, 5)
     print("i is {}".format(i))
+```
+
+# Continue, Break, Else
+
+```python
+shoppingList = ['pasta', 'fruit', 'rice', 'spam', 'bread']
+
+# Loop skipping the word spam from the list
+for item in shoppingList:
+    if item == spam:
+        continue
+    print("item: "+item)
     
+# Stopping the loop when spam is reached
+for item in shoppingList:
+    if item == spam:
+        break
+    print("item: "+item)
     
-        
+meal = ['pasta', 'fruit', 'rice', 'spam', 'bread']
+nasty_food = ''
+
+# In the loop below the else is triggered in case there is no break
+for item in meal:
+    if item == 'spam':
+        nasty_food = 'spam'
+        break
+else:
+    print('I will order that food')
+    
+if nasty_food == 'spam':
+    print('I want something without spam')
 ```
 
