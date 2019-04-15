@@ -43,6 +43,17 @@ ordered == undordered # False
 # Creating empty lists
 list_1 = []
 list_2 = list()
+```
 
+# Iterator
 
+```python
+str = "1234567890"
+
+mIterator = iter(str)
+print(next(mIterator))
+
+# Printing all digits in the string
+for digit in iter(str)
+  print(digit)
 ```
