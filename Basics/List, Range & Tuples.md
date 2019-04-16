@@ -60,3 +60,49 @@ mIterator = iter(str)
 for i in range(0, len(str)):
     print(next(mIterator))
 ```
+
+# Range
+
+```python
+# Creating a range from 0 to 10 in steps of 2
+even = list(range(0,10,2))
+
+# Given an existing range, modifying the step value
+myRange = range(0:10)
+myNewRange = myRange[::2] # 0, 2, 4, 6, 8
+
+# Retrieving the index of a given element in the list
+index = myNewRange.index(4) # 2
+
+# Ranges from max to min
+myRange = range(0,11,-2) # 10 8 6 4 2 0
+
+# The important thing in ranges is the value they return. So above ranges are the same
+range(0, 100)[::-2] == range(99, 0, -2) # True
+
+# Reversing an string, or range using this property
+backStr = "ohcaN si eman yM"
+print(backStr[::-1]) # My name is Nacho
+```
+
+# Tuples
+
+```python
+# Tuples are unmutable ordered set of data. Not always require to add the parentheses
+tuple = "a", "b", "c"  # ("a", "b", "c")
+print(("a", "b", "c")) # ("a", "b", "c") For example parentheses are required to pass the tuple to a function
+
+# Tuples can combine different types of data
+client = "Harrison G", 47, True
+
+# Accessing elements of the tuple
+print(combination[0]) # Harrison G
+
+# It is not possible to modify a tuple (since they are unmutable)
+client[1] = 50 # Will throw an error
+
+# But this is approach is possible
+client = client[0], 50, client[2]
+print(client) # "Harrison G", 50, True
+
+```
