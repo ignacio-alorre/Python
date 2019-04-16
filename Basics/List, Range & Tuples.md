@@ -50,10 +50,13 @@ list_2 = list()
 ```python
 str = "1234567890"
 
-mIterator = iter(str)
-print(next(mIterator))
-
 # Printing all digits in the string
-for digit in iter(str)
+for digit in iter(str):
   print(digit)
+  
+# Another approach would be
+mIterator = iter(str)
+
+for i in range(0, len(str)):
+    print(next(mIterator))
 ```
