@@ -1,3 +1,18 @@
+
+# Variables
+
+```python
+# Valid variables
+greeting = "Hello"
+_name = "Scot"
+
+# This will be a different variable
+Greeting = "Hola" 
+
+# Assigning to variables
+a, b = 12, 13
+```
+
 # Print()
 
 ```python
@@ -20,14 +35,6 @@ print("This is the sentence to print", end = "")
 ```python
 name = input("Please enter your name: ")
 age = int(input("Please enter your age: "))
-```
-
-# Valid variables
-
-```python
-greeting = "Hello"
-Greeting = "Hola" # This will be a different variable
-_name = "Scot"
 ```
 
 # Type conversion
