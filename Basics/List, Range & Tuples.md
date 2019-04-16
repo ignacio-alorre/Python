@@ -1,6 +1,7 @@
 # List
 
 ```python
+# Mutable collection of objects. It is intented to have elements of the same type
 # Counting number of occurrences of a symbol in a String
 ipAddress = "192.168.0.1"
 print("Number of dots is: "+ipAddress.count("."))
