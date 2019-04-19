@@ -1,5 +1,5 @@
 
-# Dictionaries
+# Dictionary
 
 ```python
 # Unordered collections, garantee there are no duplicates in that collection, can take key value pairs. 
