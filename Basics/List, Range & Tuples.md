@@ -106,4 +106,25 @@ client[1] = 50 # Will throw an error
 client = client[0], 50, client[2]
 print(client) # "Harrison G", 50, True
 
+# Extracting elements of a tuple
+name, age, married = client
+print(name)    # Harrison G
+print(age)     # 50
+print(married) # True
+
+# The use of tuples makes your code more robbust, since they are unmutable. Following action will be forbiden
+client.append("Spain")
+
+# A tuple can content other tuples 
+client = "Harrison G", 47, True, (("Jon", 8), ("Beni", 12))
+name, age, married, sons = client
+
+# It would be possible to extract the individual tuples as well
+name, age, married, son1, son2 = client
+
+# In case we dont give enough variables, we will get an unpack error
+name, age, married, son1 = client              # Will trigger: Not enough values to unpack
+name, age, married, son1, son2, son3 = client  # Will trigger: Too many values to unpack
+
+# In case the content of a tuple is a mutable object, for example a list, that mutable object can be modified
 ```
