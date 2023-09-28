@@ -37,3 +37,15 @@ z_3 = np.zeros(3)
 z_3.flags.writeable = False
 #z_3[0] = 1 # Triggers "ValueError: assignment destination is read-only"
 
+# Multidimensional Array
+
+# Create baseball, a list of lists
+ply_scores = [[8, 84],
+            [10, 76],
+            [12, 69],
+            [17, 102]]
+
+# Create a 2D numpy array from ply_scores: np_ply_scores
+np_ply_scores = np.array(ply_scores)
+print("Multi dim array "+ str(np_ply_scores.shape))
+
