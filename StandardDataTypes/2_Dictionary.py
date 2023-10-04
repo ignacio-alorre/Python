@@ -1,3 +1,12 @@
+'''
+* Unordered collections
+* Guarantee there are no duplicates in that collection
+* Can take key-value pairs.
+* Values are not accessed by an index, but by means of a key.
+* Values can be of different types, but always immutable.
+
+'''
+
 # Definition of dictionary
 europe = {'spain':'madrid', 'france':'paris', 'germany':'berlin', 'norway':'oslo', 'australia': 'sydney' }
 
@@ -7,24 +16,39 @@ print(europe.keys())
 dict_keys(['spain', 'france', 'germany', 'norway', 'australia'])
 '''
 
-# Print out value that belongs to key 'norway'
+# 1- Accessing the value. For example the value that belongs to key 'norway'
 europe['norway']
 
-# Add key to dictionary
+# 2- Inserting a value. There is no method to append objects into a dictionary, you just add a new
+# key and assign a new value
 europe['italy'] = 'rome'
 
-# Check if key in dictionary
+# 3- Checking if key is present in dictionary
 print('italy' in europe)
 '''
 True
 '''
 
-# Update value of dictionary
+# 4- Updating value of dictionary
+# If you assign a value to an existing key, you replace the previous value rather than creating a new entry
+
 europe["germany"] = "berlin city"
 
-# Remove key from dictionary
+# 5- Removing a key-value pair from dictionary
 europe.pop("australia")
 del europe["norway"]
+
+# 6- Deleting all entries from a dictionary
+europe.clear()
+
+
+# 7- Accessing missing keys in a dictionary
+# 7.1- If you try to access a non-existing key, you will get a KeyError.
+europe["japan"]   # KeyError
+
+# 7.2- A safter way to get the value of a dictionary, passing a key is with the get method
+europe.get("japan") # None
+
 
 # Dictionary of dictionaries
 europe = { "spain": { "capital":"madrid", "population":46.77 },
