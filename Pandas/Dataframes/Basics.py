@@ -52,3 +52,21 @@ unique      4         3      4
 top     Trufa  Labrador     20
 freq        1         2      1
 '''
+
+print(dogs.values)
+'''
+[['Pinon' 'Mastin' '30']
+ ['Trufa' 'Shepard' '16']
+ ['Scot' 'Labrador' '23']
+ ['Dama' 'Labrador' '20']]
+'''
+
+print(dogs.columns)
+'''
+Index(['name', 'breed', 'weight'], dtype='object')
+'''
+
+print(dogs.index)
+'''
+RangeIndex(start=0, stop=4, step=1)
+'''
